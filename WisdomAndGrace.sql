@@ -54,8 +54,8 @@ SET IDENTITY_INSERT [UserProfile] ON
 INSERT INTO [UserProfile]
   ([Id], [FirebaseUserId], [Name], [Email], [UserTypeId])
 VALUES
-  (1, '4oULyNuszpUGbNkTqGS0T8Iqs1L2', 'Foo Barington', 'foo@bar.com', 1),
-  (2, 'vP3tkzRXWmRzwSLGwNTBS5fJs2N2', 'Bar Bazaar', 'bar@baz.com', 2);
+  (1, 'Jrux5m1csUZXTsPVUHP28zVeqAE2', 'Foo Barington', 'fen@c.comx', 1),
+  (2, 'upFMRZDYMrYSmhLYYT26Zd0D0Iz2', 'Bar Bazaar', 'mc@bc.comx', 2);
 SET IDENTITY_INSERT [UserProfile] OFF
 
 
@@ -65,7 +65,7 @@ INSERT INTO [Quote]
 VALUES
   (1, 1, 'To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge.'),
   (2, 1, 'I am now going to make you a gift that will stay with you the rest of your life. For the rest of your life, every time you say, "We''ve always done it that way," my ghost will appear and haunt you for twenty-four hours.'),
-  (3, 1, 'The glass is neither half empty nor half full. It''s simply larger than it needs to be. It is easier to get forgiveness than permission.'),
+  (5, 1, 'The glass is neither half empty nor half full. It''s simply larger than it needs to be. It is easier to get forgiveness than permission.'),
   (4, 1, 'A ship in port is safe, but that''s not what ships are built for.');
 SET IDENTITY_INSERT [Quote] OFF
 
